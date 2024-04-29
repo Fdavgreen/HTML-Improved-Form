@@ -70,6 +70,7 @@ label {
     width: 100%;
 }
 
-.required-field {
+  .required::after {
+    content: "*";
     color: red;
-}
+  }
